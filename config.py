@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "23276272"))
-API_HASH = getenv("API_HASH", "7bd74970a76512b9a671aa7d28b9200d")
+API_ID = int(getenv("API_ID", "24054192"))
+API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAFpfa3rFIZWO8_Zim_kqEElqazBVo2ObZk")
+BOT_TOKEN = getenv("BOT_TOKEN", "7394763318:AAEEfv9_OoDwejoR31__dTnwkUNbyh2rmFo")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 960))
@@ -23,10 +23,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002238574089"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002182187594"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7305205222"))
+OWNER_ID = int(getenv("OWNER_ID", "5901320319"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -58,9 +58,9 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )  # Remember to give value in Seconds
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf85939")
 
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BAFjKvAAUuIhh15hlf5hopQ3oTvJq0JNmf87xIpsw-veuiKdP_OQpLbyEyzRxPEqAlNGqS6zNPwTPCCO6DiRZGbx_6zYXPoCZnqCUTF4PVq8lFaUM9iuhAkze-D3OBAPH1YVdEurNKe_AAxA-9znqC7Hn_Gmh9Q_vfV58zKhTfG0qoZ_tUery4gW8jd_DHsauDybQZGMjARzxwFhYPGyyjFLEjg0CpNC9G3FuIXJPqzKVCwdZAT9MpMi_Wo2Wht93vGXhQ7lcK7lBf3gdqGUeDnhe25TZys0oZ9FuZ70EtKMcXxxJfP8fp2-loPpWbH5SJfwsSECjXHPTA-lJFMibvFBeakQAAAAG-NSQMAA")
+STRING1 = getenv("STRING_SESSION", "BACKF0MAhLpMXY85Y6c8AlSBCSWQzXDmsmn13GJ9pu9f8w9l5oDcTwnIESjxGQGAfxO49OlMlALY2nzwgsGiqcLVbcw_cl15_02VleASc-VfianCOAVzkJcQnjsPCSgvVTx7YtQBdGLLd7oZ_OafqR9_K9QMZc7wBvTPjQwf1NOasKo5Gy4SaHAgSYx5jRdNBk5-Nzba0A8zgIVk_FjNU4SH_Z1OOtRpHtTZD1W0A70Yq4VHhbqtgr9Hg30EOeOQZoXCACIzkKdObsEsgDzlDaO3k5UJQFMnS5bKwfukUSEsWQ6HdT8saAoIjzFHqs5BE15V71_yTFk9_bBdC7z4_X-ZqbIXewAAAAGuhmXrAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
