@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "29938341"))
 API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7394763318:AAGkjPCt_eIXJmeOD5anQ2CmJJ2wbtCNX5E")
+BOT_TOKEN = getenv("BOT_TOKEN", "7394763318:AAGSLAKh5YSWGBGAVnBY5GeAvu4HxVu5ypU")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Meyit47zade/MYTGRUPBOT",
+    "https://t.me/GeceExpress",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
